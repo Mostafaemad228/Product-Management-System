@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Lilita+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,
+    url(../images/pexels-аlex-ugolkov-8867645.jpg) no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+.inner-cruds{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    border-radius: 20px;
+    padding: 10px 20px 20px 10px;
+}
+
+.cruds h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+    color: #b6ec6f !important;
+
+}
+
+.cruds p{
+    font-family: 'Gotu', sans-serif; 
+    color: #c8efc9 !important;
+  
+}
+
+/* .form-control::placeholder{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}  */
+.total{
+    /* background-color: #DCDCDC; */
+    padding: 5px;
+    display: inline;
+    color: #000000 ;
+}
+
+.total::before{
+    content: 'Total : ';
+}
+
+.btn{
+    font-size: 15px;
+    background-color: #b6ec6f !important;
+    color: #000000 !important;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+form input{
+    border: 1px solid #407b42 !important ;
+    color: #8f92e6 !important;
+
+}
+form input::placeholder{
+    color: #c8efc9 !important;
+
+}
+
+table thead {
+    color: #71b135 !important;
+}
+
+td{
+    color: #c5ff8f !important;
+
+}
+
+.deleteBtn{
+    background-color: #ff2525 !important;
+    color: #fdfced !important;
+}
